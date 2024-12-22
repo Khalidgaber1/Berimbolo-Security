@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.navbar-img{
+    width: 50px;
+}
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 100px;
+}
+.form{
+    background-color: rgba(37, 36, 36, 0.249);
+    border: 1px solid rgba(37, 36, 36, 0.308);
+    border-radius: 10px;
+    width: 600px;
+    height: 500px;
+}
+.form-control :hover{
+    background-color: blue;
+}
+@media (max-width: 768px) {
+    .form{
+        background-color: rgba(37, 36, 36, 0.249);
+        border: 1px solid rgba(37, 36, 36, 0.308);
+        border-radius: 10px;
+        width: 400px;
+        height: 500px;
+        margin-top: -20px;
+    }
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(37, 36, 36);
+}
+.footer-img{
+    width: 20px;
+    display:inline;
+
+}
+#img3{
+    margin-right: 230px;
+}
+@media (max-width: 768px) {
+    .footer-img{
+        width: 20px;
+        display:block;
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    .footer-text{
+        color: white;
+    }
+}
